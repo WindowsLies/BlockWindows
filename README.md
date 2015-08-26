@@ -12,6 +12,7 @@ Doesn't work on Windows 10, copy hosts file to your router or firewall if using 
 hosts DNS file of MS hosts to block
 
 hostlist MS Hosts file to blocking for router or firewall use
+
 HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden updates'
 
 I created this code from information from:
