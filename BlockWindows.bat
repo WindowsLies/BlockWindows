@@ -1,5 +1,4 @@
 ECHO OFF
-REM --- Remember to invoke from ELEVATED command prompt!
 REM --- Start by right clicking this file and "run as admin"
 SETLOCAL
 
