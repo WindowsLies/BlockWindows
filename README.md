@@ -12,10 +12,7 @@ Doesn't work on Windows 10, copy hosts file to your router or firewall if using 
 hosts DNS file of MS hosts to block
 
 hostlist MS Hosts file to blocking for router or firewall use
-
-
-Please submit any updates
--------
+HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden updates'
 
 I created this code from information from:
 
@@ -30,3 +27,8 @@ Colin Bowern and Opmet
 https://www.astaro.org/gateway-products/web-protection-web-filtering-application-visibility-control/58583-heres-how-block-windows-10-spying-2.html
 
 Pascalgoty and Fuselet
+
+Please submit any updates
+-------
+https://blockwindows.wordpress.com/
+---
