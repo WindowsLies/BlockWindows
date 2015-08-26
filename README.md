@@ -6,7 +6,9 @@ BlockWindows.bat Right Click and "Run as Admin"
 hosts.bat Appends current hosts file. Run from your Downloads directory Doesn't work on Windows 10, copy hosts file to your router or firewall if using Windows 10
 
 hosts DNS file of MS hosts to block
-hostlist MS Hosts to block for router or firewall use
+
+hostlist MS Hosts file to block for router or firewall use
+
 
 Please submit any updates
 -------
