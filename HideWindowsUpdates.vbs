@@ -37,4 +37,3 @@ For index = 0 To searchResult.Updates.Count - 1
     Next
 Next
 '// EOF
-
