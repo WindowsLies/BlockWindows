@@ -3,11 +3,13 @@ Stop Windows 10 Nagging and Spying. Works with Windows 7 through 10
 
 FILES:
 BlockWindows.bat Right Click and "Run as Admin"
-hosts.bat Appends current hosts file. Run from your Downloads directory Doesn't work on Windows 10, copy hosts file to your router or firewall if using Windows 10
+hosts.bat Windows 7 and 8. Appends current hosts file. Run from your Downloads directory
+
+Doesn't work on Windows 10, copy hosts file to your router or firewall if using Windows 10
 
 hosts DNS file of MS hosts to block
 
-hostlist MS Hosts file to block for router or firewall use
+hostlist MS Hosts file to blocking for router or firewall use
 
 
 Please submit any updates
