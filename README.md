@@ -16,6 +16,7 @@ hostlist MS Hosts file to blocking for router or firewall use
 HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden updates'
 
 I created this code from information from:
+--
 
 http://www.hakspek.com/security/windows-script-to-remove-all-windows-10-telemetry-updates/
 
