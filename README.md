@@ -38,9 +38,9 @@ PS There is a highly concerted effort by Microsoft Employees to harass websites 
 --
 Please repost these URLs many places on social media, blogs, etc. I'm in it for the long haul.
 --
-https://github.com/WindowsLies/BlockWindows/
-
 https://blockwindows.wordpress.com/
+
+https://github.com/WindowsLies/BlockWindows/
 
 File Mirrors
 --
