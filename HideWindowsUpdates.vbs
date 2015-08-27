@@ -29,7 +29,7 @@ For index = 0 To searchResult.Updates.Count - 1
                     WScript.Echo "Hiding update: " & update.Title
                     update.IsHidden = True
                 Else
-                    WScript.Echo "Already hiddn: " & update.Title
+                    WScript.Echo "Already hidden: " & update.Title
                 End If          
             End If
         Next
