@@ -49,3 +49,5 @@ http://mir.cr/1AHLJOEI
 MD5 f2bcd1ad74a192dd7e962a33469107e4
 
 http://www.hakspek.com/security/windows-script-to-remove-all-windows-10-telemetry-update
+
+MD5 a404bc85db63d5340aa3b67ea523ff4e
