@@ -41,3 +41,9 @@ Please repost these URLs many places on social media, blogs, etc. I'm in it for 
 https://github.com/WindowsLies/BlockWindows/
 
 https://blockwindows.wordpress.com/
+
+File Mirrors
+--
+http://mir.cr/1AHLJOEI
+
+http://www.hakspek.com/security/windows-script-to-remove-all-windows-10-telemetry-update
