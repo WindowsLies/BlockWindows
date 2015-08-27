@@ -1,4 +1,4 @@
-'// Opmet Inspired by Colin Bowern: http://serverfault.com/a/341318
+'// Inspired by Opmet and Colin Bowern: http://serverfault.com/a/341318
 If Wscript.Arguments.Count < 1 Then
     WScript.Echo "Syntax: HideWindowsUpdates.vbs [Hotfix Article ID]" & vbCRLF & _
         " - Examples: HideWindowsUpdates.vbs 2990214" & vbCRLF & _
@@ -29,7 +29,7 @@ For index = 0 To searchResult.Updates.Count - 1
                     WScript.Echo "Hiding update: " & update.Title
                     update.IsHidden = True
                 Else
-                    WScript.Echo "Already hiddn: " & update.Title
+                    WScript.Echo "Already hidden: " & update.Title
                 End If          
             End If
         Next
