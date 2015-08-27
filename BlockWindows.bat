@@ -104,12 +104,12 @@ schtasks /Change /TN "\Microsoft\Windows\Media Center\UpdateRecordPath" /DISABLE
 echo - done
 
 REM --- Kill services
-echo Killing Diagtrack-service (if it still exists)…
+echo Killing Diagtrack-service (if it still exists)...
 sc stop Diagtrack
 sc delete Diagtrack
 echo - done
 
-echo Stop remoteregistry-service (if it still exists)…
+echo Stop remoteregistry-service (if it still exists)...
 sc config remoteregistry start= disabled
 sc stop remoteregistry
 
