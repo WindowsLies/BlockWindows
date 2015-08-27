@@ -34,3 +34,9 @@ Please submit any updates
 -------
 https://blockwindows.wordpress.com/
 ---
+PS There is a highly concerted effort by Microsoft Employees to harass websites that link to this. I'm tired of constantly trying to convince website admins it's not spam.
+--
+Please repost these URLs many places on social media, blogs, etc. I'm in it for the long haul.
+--
+https://github.com/WindowsLies/BlockWindows/
+https://blockwindows.wordpress.com/
