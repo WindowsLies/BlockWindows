@@ -8,13 +8,13 @@ echo uninstalling updates ...
 echo Delete KB971033 (license validation)
 start "title" /b /wait wusa.exe /kb:971033 /uninstall /quiet /norestart
 echo  - next
-eecho Delete KB2902907 (Microsoft Security Essentials)
+echo Delete KB2902907 (Microsoft Security Essentials)
 start "title" /b /wait wusa.exe /kb:2902907 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB2952664 (Get Windows 10 assistant)
 start "title" /b /wait wusa.exe /kb:2952664 /uninstall /quiet /norestart
 echo  - next
-echo Delete KB2976987 (description not available)
+echo Delete KB2976978 (telemetry for Windows 8/8.1)
 start "title" /b /wait wusa.exe /kb:2976978 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB2990214 (Get Windows 10 for Win7)
@@ -61,25 +61,24 @@ start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 
 echo  - done.
 
 REM --- Block Routes
-echo Blocking Routes…
+echo Blocking Routes...
 route -p add 23.218.212.69 MASK 255.255.255.255 0.0.0.0
 route -p add 65.55.108.23 MASK 255.255.255.255 0.0.0.0
 route -p add 65.39.117.230 MASK 255.255.255.255 0.0.0.0
 route -p add 134.170.30.202 MASK 255.255.255.255 0.0.0.0
 route -p add 137.116.81.24 MASK 255.255.255.255 0.0.0.0
 route -p add 204.79.197.200 MASK 255.255.255.255 0.0.0.0
-route -p add 23.218.212.69 MASK 255.255.255.255 0.0.0.0
 echo - done
 
 REM --- Disable tasks
-echo Disabling tasks…
+echo Disabling tasks...
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\AitAgent" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Autochk\Proxy" /DISABLE
-schtasks /Change /TN "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /DISABLE
-schtasks /Change /TN "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" /DISABLE
-schtasks /Change /TN "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Maintenance\WinSAT" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Media Center\ActivateWindowsSearch" /DISABLE
@@ -104,15 +103,15 @@ schtasks /Change /TN "\Microsoft\Windows\Media Center\UpdateRecordPath" /DISABLE
 echo - done
 
 REM --- Kill services
-echo Killing Diagtrack-service (if it still exists)…
+echo Killing Diagtrack-service (if it still exists)...
 sc stop Diagtrack
 sc delete Diagtrack
 echo - done
 
-echo Stop remoteregistry-service (if it still exists)…
+echo Stop remoteregistry-service (if it still exists)...
 sc config remoteregistry start= disabled
 sc stop remoteregistry
 
-echo Done — Manually Reboot for changes to take effect
+echo Done - Manually Reboot for changes to take effect
 REM shutdown -r
 pause
