@@ -44,9 +44,9 @@ https://blockwindows.wordpress.com/
 
 File Mirrors
 --
-http://mir.cr/1AHLJOEI
+http://mir.cr/4UOQEENP
 
-MD5 f2bcd1ad74a192dd7e962a33469107e4
+MD5 f91c7c77b31aca784332fafd80d11664
 
 http://www.hakspek.com/security/windows-script-to-remove-all-windows-10-telemetry-update
 
