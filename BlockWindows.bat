@@ -1,7 +1,13 @@
 ECHO OFF
-REM --- Remember to invoke from ELEVATED command prompt!
-REM --- Start by right clicking this file and "run as admin"
 SETLOCAL
+
+REM --- Check for administrative privleges
+net session >nul 2>&1
+IF NOT %errorLevel% == 0 (
+	echo This script must be run as an administrator
+	pause
+	exit /B
+)
 
 REM --- uninstall updates
 echo uninstalling updates ...
