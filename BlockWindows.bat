@@ -14,8 +14,8 @@ echo  - next
 echo Delete KB2952664 (Get Windows 10 assistant)
 start "title" /b /wait wusa.exe /kb:2952664 /uninstall /quiet /norestart
 echo  - next
-echo Delete KB2976987 (description not available)
-start "title" /b /wait wusa.exe /kb:2976987 /uninstall /quiet /norestart
+echo Delete KB2976978 (description not available)
+start "title" /b /wait wusa.exe /kb:2976978 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB2990214 (Get Windows 10 for Win7)
 start "title" /b /wait wusa.exe /kb:2990214 /uninstall /quiet /norestart
@@ -57,7 +57,7 @@ timeout 5
 
 REM --- Hide updates
 echo Hiding updates...
-start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976987 2990214 3012973 3021917 3022345 3035583 3044374 3050265 3065987 3068708 3075249 3075853 3080149 
+start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976978 2990214 3012973 3021917 3022345 3035583 3044374 3050265 3065987 3068708 3075249 3075853 3080149 
 echo  - done.
 
 REM --- Block Routes
