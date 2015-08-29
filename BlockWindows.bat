@@ -1,6 +1,11 @@
-ECHO OFF
-REM --- Remember to invoke from ELEVATED command prompt!
-REM --- Start by right clicking this file and "run as admin"
+@echo off
+openfiles.exe 1>nul 2>&1
+if not %errorlevel% equ 0 (
+    Echo You are not administrator! Right Click file select run as admin
+    pause
+    EXIT 1
+) else (   
+
 SETLOCAL
 
 REM --- uninstall updates
@@ -116,3 +121,4 @@ sc stop remoteregistry
 echo Done — Manually Reboot for changes to take effect
 REM shutdown -r
 pause
+)
