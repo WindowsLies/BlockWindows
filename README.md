@@ -46,7 +46,7 @@ https://github.com/WindowsLies/BlockWindows/
 
 File Mirrors
 --
-NEW
+LATEST
 
 http://mir.cr/LJM1TMLV
 
