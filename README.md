@@ -13,6 +13,8 @@ hosts DNS file of MS hosts to block
 
 hostlist MS Hosts file to blocking for router or firewall use
 
+hosts-dnsmasq Hosts file for dd-wrt and other routers 
+
 HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden updates'
 
 I created this code from information from:
