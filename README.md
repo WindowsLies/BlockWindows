@@ -46,9 +46,9 @@ https://github.com/WindowsLies/BlockWindows/
 
 File Mirrors
 --
-http://mir.cr/1PBLEKWV
+http://mir.cr/LJM1TMLV
 
-MD5 4d24d1d2403954650819851c2a0bff69
+MD5 ffaa1426fe95332f8f0e130608150c7b
 
 http://www.hakspek.com/security/windows-script-to-remove-all-windows-10-telemetry-update
 
