@@ -9,7 +9,7 @@ REM This blocks MS telemetry IP's from hosts file. Appends to current hosts file
 REM WIN10 blocks this method, if running WIN10 add the entries in the file 'hosts' to your router or firewall blocklist
 REM Put all files in your Downloads directory. Right click and run this file as administrator
 
-type %homepath%\Downloads\hosts >> %windir%\system32\Drivers\etc\hosts
+type %~dp0hosts >> %windir%\system32\Drivers\etc\hosts
 echo Completed
 pause
 )
