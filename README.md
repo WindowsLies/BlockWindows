@@ -17,6 +17,8 @@ hosts-dnsmasq Hosts file for dd-wrt and other routers
 
 HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden updates'
 
+DisableWiFiSense.reg Adds registry to disable WiFi Sense, which steals your wifi password without your consent.
+
 I created this code from information from:
 --
 
@@ -36,13 +38,15 @@ Please submit any updates
 -------
 https://blockwindows.wordpress.com/
 ---
-PS There is a highly concerted effort by Microsoft Employees to harass websites that link to this. I'm tired of constantly trying to convince website admins it's not spam.
+PS There is a highly concerted effort by M$ to harass websites that link to this. I'm tired of constantly trying to convince website admins it's not spam.
 --
 Please repost these URLs many places on social media, blogs, etc. I'm in it for the long haul.
 --
 https://blockwindows.wordpress.com/
 
 https://github.com/WindowsLies/BlockWindows/
+
+https://gitlab.com/windowslies/blockwindows/
 
 File Mirrors
 --
