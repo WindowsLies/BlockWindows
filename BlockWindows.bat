@@ -82,7 +82,7 @@ start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 
 echo  - done.
 
 REM --- Block Hosts
-echo Blocking Hosts...
+echo Blocking Hosts(Including OUTLOOK,HOTMAIL,LIVE.COM) add REM in front of any you use...
 
 echo block a-0001.a-msedge.net
 route -p add 204.79.197.200/32 127.0.0.1
@@ -603,7 +603,6 @@ echo block www.msn.com
 route -p add 204.79.197.203/32 127.0.0.1
 
 echo done
-
 
 REM --- Disable tasks
 echo Disabling tasks...
