@@ -19,6 +19,10 @@ HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden up
 
 DisableWiFiSense.reg Adds registry to disable WiFi Sense, which steals your wifi password without your consent.
 
+JavaScript HashCalc
+
+http://sourceforge.net/projects/hash-calculator/
+
 I created this code from information from:
 --
 
@@ -54,10 +58,10 @@ LATEST
 
 http://mir.cr/LJM1TMLV
 
-MD5 ffaa1426fe95332f8f0e130608150c7b
+SHA256 a48869ebe89fa78dc41c833554ea08f0234ee62405672534b24896c75605dd8e
 
 OLD
 
-http://www.hakspek.com/security/windows-script-to-remove-all-windows-10-telemetry-update
+http://www.hakspek.com/wp-content/uploads/2015/08/block_w10.zip
 
-MD5 a404bc85db63d5340aa3b67ea523ff4e
+SHA256 5f02ddef572cb408c5a9e44387e7d07ee4c95843edcdc79fa690b5a9910f6c74
