@@ -158,6 +158,9 @@ route -p add 93.184.215.200/32 127.0.0.1
 echo block bing.com
 route -p add 204.79.197.200/32 127.0.0.1
 
+echo block bingads.microsoft.com
+route -p add 66.119.152.205/32 127.0.0.1
+
 echo block b.rad.msn.com
 route -p add 65.55.2.6/32 127.0.0.1
 
