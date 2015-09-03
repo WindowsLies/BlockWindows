@@ -9,7 +9,7 @@ if not %errorlevel% equ 0 (
 SETLOCAL
 
 REM --- uninstall updates
-echo uninstalling updates ...
+echo uninstalling updates, be patient...
 echo Delete KB971033 (license validation)
 start "title" /b /wait wusa.exe /kb:971033 /uninstall /quiet /norestart
 echo  - next
@@ -83,6 +83,7 @@ echo  - done.
 
 REM --- Block Hosts
 echo Blocking Hosts(Including OUTLOOK,HOTMAIL,LIVE.COM,BING) add REM in front of any you use...
+timeout 4
 
 echo block a-0001.a-msedge.net
 route -p add 204.79.197.200/32 127.0.0.1
@@ -608,8 +609,8 @@ route -p add 204.79.197.203/32 127.0.0.1
 echo done
 
 REM --- Disable tasks
-echo Disabling tasks...
-echo Depending on Windows version, Errors here are normal and can be ignored
+echo Disabling tasks. Depending on Windows version this may have errors, this is normal...
+timeout 3
 
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\AitAgent" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
@@ -651,7 +652,7 @@ echo Stop remoteregistry-service (if it still exists)...
 sc config remoteregistry start= disabled
 sc stop remoteregistry
 
-echo Done — Manually Reboot for changes to take effect
+echo Done. Manually Reboot for changes to take effect
 REM shutdown -r
 pause
 )
