@@ -609,6 +609,8 @@ echo done
 
 REM --- Disable tasks
 echo Disabling tasks...
+echo Depending on Windows version, Errors here are normal and can be ignored
+
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\AitAgent" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /DISABLE
