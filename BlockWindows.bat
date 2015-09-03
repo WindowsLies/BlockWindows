@@ -22,8 +22,8 @@ echo  - next
 echo Delete KB2976978 (update for windows 8.1 and windows 8)
 start "title" /b /wait wusa.exe /kb:2976978 /uninstall /quiet /norestart
 echo  - next
-echo Delete KB29777598 (update for windows 7 rtm)
-start "title" /b /wait wusa.exe /kb:29777598 /uninstall /quiet /norestart
+echo Delete KB2977759 (update for windows 7 rtm)
+start "title" /b /wait wusa.exe /kb:2977759 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB2990214 (Get Windows 10 for Win7)
 start "title" /b /wait wusa.exe /kb:2990214 /uninstall /quiet /norestart
@@ -78,11 +78,11 @@ timeout 5
 REM --- Hide updates
 echo Hiding updates, may take a while be patient...
 
-start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976978 29777598 2990214 3012973 3014460 3015249 3021917 3022345 3035583 3044374 3050265 3050267 3065987 3068708 3075249 3075851 3075853 3080149 
+start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976978 2977759 2990214 3012973 3014460 3015249 3021917 3022345 3035583 3044374 3050265 3050267 3065987 3068708 3075249 3075851 3075853 3080149 
 echo  - done.
 
 REM --- Block Hosts
-echo Blocking Hosts(Including OUTLOOK,HOTMAIL,LIVE.COM) add REM in front of any you use...
+echo Blocking Hosts(Including OUTLOOK,HOTMAIL,LIVE.COM,BING) add REM in front of any you use...
 
 echo block a-0001.a-msedge.net
 route -p add 204.79.197.200/32 127.0.0.1
