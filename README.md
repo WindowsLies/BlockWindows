@@ -9,6 +9,8 @@ BlockWindows.bat Right Click and "Run as Admin"
 hosts.bat Works with Windows 7 and 8. Appends current hosts file. Run from your Downloads directory.
 Doesn't work on Windows 10, copy hosts file to your router or firewall if using Windows 10
 
+hosts2.bat Blocks M$ hosts with firewall *BLOCKS most M$ sites OUTLOOK,HOTMAIL,ETC REM any you use*
+
 hosts DNS file of MS hosts to block
 
 hostlist MS Hosts file to blocking for router or firewall use
