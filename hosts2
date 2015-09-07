@@ -299,25 +299,25 @@ route -p add 65.55.252.63/32 127.0.0.1
 echo block oca.telemetry.microsoft.com.nsatc.net
 route -p add 65.55.252.63/32 127.0.0.1
 
-echo block ocsp.msocsp.com
-route -p add 108.162.232.196/32 127.0.0.1
-route -p add 108.162.232.197/32 127.0.0.1
-route -p add 108.162.232.198/32 127.0.0.1
-route -p add 108.162.232.199/32 127.0.0.1
-route -p add 108.162.232.200/32 127.0.0.1
-route -p add 108.162.232.201/32 127.0.0.1
-route -p add 108.162.232.202/32 127.0.0.1
-route -p add 108.162.232.203/32 127.0.0.1
-route -p add 108.162.232.204/32 127.0.0.1
-route -p add 108.162.232.205/32 127.0.0.1
-route -p add 108.162.232.207/32 127.0.0.1
+REM echo block ocsp.msocsp.com
+REM route -p add 108.162.232.196/32 127.0.0.1
+REM route -p add 108.162.232.197/32 127.0.0.1
+REM route -p add 108.162.232.198/32 127.0.0.1
+REM route -p add 108.162.232.199/32 127.0.0.1
+REM route -p add 108.162.232.200/32 127.0.0.1
+REM route -p add 108.162.232.201/32 127.0.0.1
+REM route -p add 108.162.232.202/32 127.0.0.1
+REM route -p add 108.162.232.203/32 127.0.0.1
+REM route -p add 108.162.232.204/32 127.0.0.1
+REM route -p add 108.162.232.205/32 127.0.0.1
+REM route -p add 108.162.232.207/32 127.0.0.1
 
-echo block ocsp.omniroot.com
-route -p add 72.21.91.8/32 127.0.0.1
+REM echo block ocsp.omniroot.com
+REM route -p add 72.21.91.8/32 127.0.0.1
 
-echo block ocsp.startssl.com
-route -p add 165.254.114.112/32 127.0.0.1
-route -p add 165.254.114.120/32 127.0.0.1
+REM echo block ocsp.startssl.com
+REM route -p add 165.254.114.112/32 127.0.0.1
+REM route -p add 165.254.114.120/32 127.0.0.1
 
 echo block officeclient.microsoft.com
 route -p add 137.116.64.35/32 127.0.0.1
