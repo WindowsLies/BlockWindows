@@ -21,6 +21,8 @@ HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden up
 
 DisableWiFiSense.reg Adds registry to disable WiFi Sense, which steals your wifi password without your consent.
 
+unblock.bat Unblocks hosts2.bat blocking
+
 JavaScript HashCalc
 
 http://sourceforge.net/projects/hash-calculator/
