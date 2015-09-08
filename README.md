@@ -57,9 +57,9 @@ https://gitlab.com/windowslies/blockwindows/
 File Mirrors
 --
 LATEST
-http://mir.cr/8LPKVW8W
+http://mir.cr/FBFYZN6L
 
-SHA256 e23dc65f4b461a059ffdc449dea6ab2f8faca8a716202b35896a594678c5a3bf
+SHA256 f00f63af77a631e2b37ea40a9df36049fd13b31b7f5692fcc9d2373504c7a19c
 
 OLD
 
