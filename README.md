@@ -60,9 +60,9 @@ File Mirrors
 --
 LATEST
 
-http://mir.cr/FBFYZN6L
+http://mir.cr/1JDZGZXN
 
-SHA256 f00f63af77a631e2b37ea40a9df36049fd13b31b7f5692fcc9d2373504c7a19c
+SHA256 7905318a9d35b024f1bffc78d12a8e38a3deeed63a61792b2a274300addc5c87
 
 OLD
 
