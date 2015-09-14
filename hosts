@@ -45,7 +45,7 @@
 0.0.0.0 df.telemetry.microsoft.com
 0.0.0.0 diagnostics.support.microsoft.com
 0.0.0.0 ec.atdmt.com
-0.0.0.0 fe2.update.microsoft.com.akadns.net
+#0.0.0.0 fe2.update.microsoft.com.akadns.net
 0.0.0.0 feedback.microsoft-hohm.com
 0.0.0.0 feedback.search.microsoft.com
 0.0.0.0 feedback.windows.com
@@ -78,7 +78,7 @@
 0.0.0.0 services.wes.df.telemetry.microsoft.com
 0.0.0.0 settings-sandbox.data.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
-0.0.0.0 sls.update.microsoft.com.akadns.net
+#0.0.0.0 sls.update.microsoft.com.akadns.net
 0.0.0.0 sO.2mdn.net
 0.0.0.0 sqm.df.telemetry.microsoft.com
 0.0.0.0 sqm.telemetry.microsoft.com
