@@ -388,14 +388,14 @@ route -p add 168.62.11.145/32 127.0.0.1
 echo block shell.windows.com
 route -p add 137.116.81.94/32 127.0.0.1
 
-echo block sls.update.microsoft.com
-route -p add 157.55.133.204/32 127.0.0.1
+REM echo block sls.update.microsoft.com
+REM route -p add 157.55.133.204/32 127.0.0.1
 
-echo block sls.update.microsoft.com.akadns.net
-route -p add 157.55.240.220/32 127.0.0.1
+REM echo block sls.update.microsoft.com.akadns.net
+REM route -p add 157.55.240.220/32 127.0.0.1
 
-echo block sls.update.microsoft.com.nsatc.net
-route -p add 157.55.133.204/32 127.0.0.1
+REM echo block sls.update.microsoft.com.nsatc.net
+REM route -p add 157.55.133.204/32 127.0.0.1
 
 echo block social.answers.microsoft.com
 route -p add 134.170.52.190/32 127.0.0.1
@@ -425,8 +425,8 @@ echo block statsfe1.ws.microsoft.com
 route -p add 134.170.115.60/32 127.0.0.1
 route -p add 207.46.114.61/32 127.0.0.1
 
-echo block statsfe2.update.microsoft.com.akadns.net
-route -p add 65.52.108.153/32 127.0.0.1
+REM echo block statsfe2.update.microsoft.com.akadns.net
+REM route -p add 65.52.108.153/32 127.0.0.1
 
 echo block statsfe2.ws.microsoft.com
 route -p add 64.4.54.22/32 127.0.0.1
