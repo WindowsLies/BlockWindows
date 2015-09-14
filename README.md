@@ -17,7 +17,11 @@ hostlist MS Hosts file to blocking for router or firewall use
 
 hosts-dnsmasq Hosts file for dd-wrt and other routers 
 
-HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden updates'
+CleanMaliciousUpdates.js Hides blocked updates, to reinstall enter 'show hidden updates'. Also detects suspicious updates.
+
+libMSUpdater.js A wrapper to deal with updates from WSH
+
+config.js A JSON config for ```CleanMaliciousUpdates.js.``` Extension ```.js``` is used because there is no ```JSON.parse``` in WSH
 
 DisableWiFiSense.reg Adds registry to disable WiFi Sense, which steals your wifi password without your consent.
 
