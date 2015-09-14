@@ -425,8 +425,8 @@ echo block statsfe1.ws.microsoft.com
 route -p add 134.170.115.60/32 127.0.0.1
 route -p add 207.46.114.61/32 127.0.0.1
 
-REM echo block statsfe2.update.microsoft.com.akadns.net
-REM route -p add 65.52.108.153/32 127.0.0.1
+echo block statsfe2.update.microsoft.com.akadns.net
+route -p add 65.52.108.153/32 127.0.0.1
 
 echo block statsfe2.ws.microsoft.com
 route -p add 64.4.54.22/32 127.0.0.1
