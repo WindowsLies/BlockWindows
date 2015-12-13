@@ -72,13 +72,16 @@ start "title" /b /wait wusa.exe /kb:3075853 /uninstall /quiet /norestart
 echo  - next
 echo Delete KB3080149 (Telemetry)
 start "title" /b /wait wusa.exe /kb:3080149 /uninstall /quiet /norestart
+echo  - next
+echo Delete KB3112336 (monitor quality of upgrade experience)
+start "title" /b /wait wusa.exe /kb:3112336 /uninstall /quiet /norestart
 echo  - done.
 timeout 5
 
 REM --- Hide updates
 echo Hiding updates, may take a while be patient...
 
-start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976978 2977759 2990214 3012973 3014460 3015249 3021917 3022345 3035583 3044374 3050265 3050267 3065987 3068708 3075249 3075851 3075853 3080149 
+start "title" /b /wait cscript.exe "%~dp0HideWindowsUpdates.vbs" 971033 2902907 2952664 2976978 2977759 2990214 3012973 3014460 3015249 3021917 3022345 3035583 3044374 3050265 3050267 3065987 3068708 3075249 3075851 3075853 3080149 3112336 
 echo  - done.
 
 REM --- Disable tasks
