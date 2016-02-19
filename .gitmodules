@@ -1,0 +1,4 @@
+[submodule "CleanUnwantedUpdates"]
+	path = CleanUnwantedUpdates
+	url = https://github.com/KOLANICH/CleanUnwantedUpdates.git
+	update = merge
