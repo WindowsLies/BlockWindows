@@ -68,10 +68,10 @@ echo - done.
 echo.
 
 REM --- Kill services
-echo Killing Diagtrack-service (if it still exists)...
-sc stop Diagtrack
-sc delete Diagtrack
-echo - done.
+< NUL: SET /P =Killing Diagtrack-service (if it still exists)...
+sc stop Diagtrack > NUL:
+sc delete Diagtrack > NUL:
+echo  - done.
 
 echo.
 echo Done. Manually Reboot for changes to take effect.
