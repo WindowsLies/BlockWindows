@@ -11,9 +11,9 @@ F.e.:
 2966583 9 "Improvements" for the "System Update Readiness Tool" in Windows 7 and Windows Server 2008 R2
 ```
 
-Severity is then used by the BlockWindows.bat to decide, which updates are to be treated, and which are free to pass.
+Severity is then used by the [BlockWindows.bat](BlockWindows.bat) to decide, which updates are to be treated, and which are free to pass.
 
-The default severity value is zero (technically, it is an empty string, but…), thus anything with severity 1 and up will be considered unwanted.
+The maximum safe severity is passed as the first argument. The default severity value is zero (technically, it is an empty string, butâ€¦), thus, if no arguments given, anything with severity 1 and up will be considered unwanted.
 
 ## Suggested severity values
 
