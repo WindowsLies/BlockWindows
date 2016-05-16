@@ -2,21 +2,6 @@
 2670838 4 (Win 7 Only) breaks AERO functionality and makes fonts blurry on some websites
 2876229 3 Skype for Windows Update
 2970228 4 Buggy update (Add ruble symbol) (causes blue screen)
-2976987 9 Compatibility update for windows 8.1 and windows 8
 2982791 4 Buggy security update (causes blue screen)
-3008273 9 Update that enables Windows RT to update to Windows RT 8.1, and Window 8 to update to Windows 8.1
-3046480 9 Update to determine whether to migrate the .NET Framework 1.1 when upgrading Win 7/8.1
-3065988 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: July 2015
-3068707 9 Customer experience telemetry point for W7,8,8.1
-3072318 9 Update for Windows 8.1 OOBE to upgrade to Windows 10
 3072630 3 Solidworks update
-3081452 9 Ensures smooth experience for updating to future versions
-3081954 9 Telemetry update for Windows 7
-3083710 5 Windows Update Client for Windows 7 and Windows Server 2008 R2
-3083711 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2
-3090045 5 Windows Update for reserved devices in Windows 8.1 or Windows 7 SP1
-3102810 5 Windows Update Client
 3133977 4 Buggy update
-3138615 5 Windows Update Client for Windows 8.1
-3139929 5 Get Windows 10 update for MSIE (ads in browser)
-3150513 9 Compatibility Update (another GWX) for Windows 7/8.1
