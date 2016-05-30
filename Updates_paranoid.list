@@ -1,0 +1,10 @@
+2506928 3 Bug fix: A link in an .html file that you open in Outlook does not work in Windows 7 or in Windows Server 2008 R2
+2592687 3 Remote Desktop Protocol (RDP) 8.0 update for Windows 7 and Windows Server 2008 R2
+2660075 4 Fix for date and time if time zone is set to Samoa and KB 2657025 is installed
+2726535 4 Adds South Sudan to the list of countries in Windows Server 2008, Windows 7, and Windows Server 2008 R2
+2923545 3 Update for RDP 8.1 is available for Windows 7 SP1
+2994023 3 Bug fix: RDP 8.1 client for Windows 7 or Windows Server 2008 R2 disconnects when it is connected through a RD gateway
+3008188 4 November 2014 Windows Update client improvements in Windows 8.1 or Windows Server 2012 R2
+3092627 6 September 2015 update to fix Windows or application freezes after you install security update 3076895
+3134814 7 Security update for IE: "includes several nonsecurity-related fixes for Internet Explorer"
+3141092 6 Sites in the Enterprise Mode Site List do not load in Enterprise mode
