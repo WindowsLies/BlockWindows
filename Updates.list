@@ -20,8 +20,13 @@
 3075851 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: August 2015
 3075853 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: August 2015
 3080149 9 Update for "customer experience" and "diagnostic telemetry".
+3081954 9 Adds "telemetry data points" to Work Folders (Win10 upgrade compat)
+3083324 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: September 2015
+3083710 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: October 2015
 3112336 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: December 2015
 3112343 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: December 2015
 3123862 9 Updated capabilities to upgrade Windows 8.1 and Windows 7
 3135445 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: February 2016
 3138612 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: March 2016
+3138615 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: March 2016
+3150513 9 May 2016 Spying Compatibility Update for Windows
