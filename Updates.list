@@ -33,10 +33,10 @@
 3081437 9 Compatibility update for upgrading to Windows 10
 3081452 9 Ensures smooth experience for updating to future versions
 3081454 9 Compatibility update for upgrading to Windows 10
-3081954 9 Telemetry update for Windows 7
+3081954 9 Adds "telemetry data points" to Work Folders (Win10 upgrade compat)
 3083324 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: September 2015
 3083325 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: September 2015
-3083710 5 Windows Update Client for Windows 7 and Windows Server 2008 R2
+3083710 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: October 2015
 3083711 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2
 3088195 9 "Security update" includes kernel key logger
 3090045 5 Windows Update for reserved devices in Windows 8.1 or Windows 7 SP1
@@ -49,6 +49,8 @@
 3135445 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: February 2016
 3135449 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: February 2016
 3138612 5 Windows Update Client for Windows 7 and Windows Server 2008 R2: March 2016
-3138615 5 Windows Update Client for Windows 8.1
+3138615 5 Windows Update Client for Windows 8.1 and Windows Server 2012 R2: March 2016
 3139929 9 Get Windows 10 update for MSIE (ads in browser)
-3150513 9 Compatibility Update (another GWX) for Windows 7/8.1
+3150513 9 May 2016 Spying Compatibility Update (another GWX) for Windows 7/8.1
+3161608 9 June 2016 update rollup for Windows 7 SP1 and Windows Server 2008 R2 SP1
+3173040 9 "End of upgrade" nag.
