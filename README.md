@@ -4,30 +4,28 @@ Stop Windows 7 through 10 Nagging and Spying updates, Tasks, IPs, and services. 
 FILES
 -----
 
-BlockWindows.bat Right Click and "Run as Admin"
+**BlockWindows.bat** - Right Click and "Run as Admin"
 
-hosts.bat Works with Windows 7 and 8. Appends current hosts file. Run from your Downloads directory.
+**hosts.bat** - Works with Windows 7 and 8. Appends current hosts file. Run from your Downloads directory.
 Doesn't work on Windows 10, copy hosts file to your router or firewall if using Windows 10
 
-hosts2.bat Blocks M$ hosts with firewall *BLOCKS most M$ sites OUTLOOK,HOTMAIL,ETC REM any you use*
+**hosts2.bat** - Blocks M$ hosts with firewall *BLOCKS most M$ sites OUTLOOK,HOTMAIL,ETC REM any you use*
 
-hosts DNS file of MS hosts to block
+**hosts** - DNS file of MS hosts to block
 
-hostlist MS Hosts file to blocking for router or firewall use
+**hostlist** - MS Hosts file to blocking for router or firewall use
 
-hosts-dnsmasq Hosts file for dd-wrt and other routers 
+**hosts-dnsmasq** - Hosts file for dd-wrt and other routers 
 
-HideWindowsUpdates.vbs Hides blocked updates, to reinstall click 'show hidden updates'
+**HideWindowsUpdates.vbs** - Hides blocked updates, to reinstall click 'show hidden updates'
 
-DisableWiFiSense.reg Adds registry to disable WiFi Sense, which steals your wifi password without your consent.
+**DisableWiFiSense.reg** - Adds registry to disable WiFi Sense, which steals your wifi password without your consent.
 
-DisableGWX.reg Disables Windows Update Nagging Notifications
+**DisableGWX.reg** - Disables Windows Update Nagging Notifications
 
-unblock.bat Unblocks hosts2.bat blocking
+**unblock.bat** - Unblocks hosts2.bat blocking
 
-JavaScript HashCalc
-
-http://sourceforge.net/projects/hash-calculator/
+JavaScript HashCalc: http://sourceforge.net/projects/hash-calculator/
 
 I created this code from information from:
 --
